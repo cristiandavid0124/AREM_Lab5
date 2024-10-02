@@ -16,6 +16,7 @@ import java.util.Optional;
 @RestController
 @RequestMapping("/properties")
 @Validated
+@CrossOrigin(origins = "*")
 public class PropertyController {
 
     private final PropertyService propertyService;
